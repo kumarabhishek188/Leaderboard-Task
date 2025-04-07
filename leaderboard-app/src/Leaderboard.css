@@ -1,0 +1,33 @@
+.circle-avatar, .circle-avatar-sm {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .rank-inside, .rank-inside-sm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-25%, -25%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  }
+  
+  .crown-img {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 32px;
+    z-index: 3;
+  }
+
+  
